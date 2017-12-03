@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAipSv9wEJ4NUd1hgk0ndMwHBGCYysFn5s"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="col-sm-12" id="divTitulo">
+            <p>ERASMUS FINDER</p>
+        </div>
+
+        <hr>
+
+        <div class="col-sm-12" id="divMovilidad">
+            <label for="movilidad" class="tituloSecundario">TIPO DE MOVILIDAD</label>
+            <select id="movilidad">
+                <option value="todos" selected="selected">Todos</option>
+                <option value="gsuperior">Grado superior</option>
+                <option value="gmedio">Grado medio</option>
+                <option value="profesor">Profesorado</option>
+            </select>
+        </div>
+
+        <hr>
+
+        <div class="col-sm-12" id="divModo">
+            <label for="divSwitch" class="tituloSecundario">BUSCAR POR</label>
+            <span>CICLO</span>
+            <div id="divSwitch">
+                <label class="switch">
+                    <input type="checkbox" id="toggle">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <span>PAÍS</span>
+        </div>
+
+        <div class="col-sm-12" id="divAreaExtra">
+
+        </div>
+
+        <div id="mapa_div" style="width:100%; height:400px">
+
+        </div>
+    </div>
+
+    <script src="js/erasmus.js"></script>
+</body>
+
+</html>
