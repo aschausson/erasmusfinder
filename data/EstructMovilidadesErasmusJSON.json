@@ -145,7 +145,7 @@
   },
   "movilidadPr04": {
     "tipo": "Profesorado",
-    "ciclo": "Comercio y Márketing",
+    "ciclo": "Comercio y Marketing",
     "pais": "Reino Unido",
     "ciudad": "Bournemonth",
 	"longitud": "50.7540531",
@@ -153,7 +153,7 @@
   },
   "movilidadPr05": {
     "tipo": "Profesorado",
-    "ciclo": "Comercio y Márketing",
+    "ciclo": "Comercio y Marketing",
     "pais": "Reino Unido",
     "ciudad": "Londres",
 	"longitud": "51.5287718",
@@ -425,7 +425,7 @@
   },
   "movilidadGS33": {
     "tipo": "Grado Superior",
-    "ciclo": "Adminstración y Finanzas",
+    "ciclo": "Administración y Finanzas",
     "pais": "Polonia",
     "ciudad": "Cracovia",
 	"longitud": "50.0468548",
