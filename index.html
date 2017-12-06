@@ -10,15 +10,17 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAipSv9wEJ4NUd1hgk0ndMwHBGCYysFn5s"></script>
     <link rel="stylesheet" href="css/estilo.css">
-    <title>Document</title>
+    
+    <title>ErasmusFinder</title>
 
 </head>
 
 <body>
 
     <div class="container">
-        <div class="col-sm-12" id="divTitulo">
-            <p>ERASMUS FINDER</p>
+        <div id="divTitulo">
+                <img src="img/icono.png" alt="Marcador de Google Maps con un birrete universitario." height="50px" width="50px" id="icono">
+                <h4 id="tituloTexto">ERASMUS-FINDER</h4>
         </div>
 
         <hr>
@@ -27,15 +29,15 @@
             <label for="movilidad" class="tituloSecundario">TIPO DE MOVILIDAD</label>
             <select id="movilidad">
                 <option value="todos" selected="selected">Todos</option>
-                <option value="gsuperior">Grado superior</option>
-                <option value="gmedio">Grado medio</option>
-                <option value="profesor">Profesorado</option>
+                <option value="Grado Superior">Grado superior</option>
+                <option value="Grado Medio">Grado medio</option>
+                <option value="Profesorado">Profesorado</option>
             </select>
         </div>
 
         <hr>
 
-        <div class="col-sm-12" id="divModo">
+        <div class="col-xs-12" id="divModo">
             <label for="divSwitch" class="tituloSecundario">BUSCAR POR</label>
             <span>CICLO</span>
             <div id="divSwitch">
@@ -48,15 +50,29 @@
             <span>PAÍS</span>
         </div>
 
-        <div class="col-sm-12" id="divAreaExtra">
+        <hr>
+
+        <div class="col-xs-1" id="divSelect">
+            <button id="botonCheck" class="glyphicon glyphicon-check"/>
+        </div>
+        <div class="col-xs-1" id="divUnselect">
+            <button id="botonUncheck" class="glyphicon glyphicon-unchecked"/>
+        </div>
+
+        <div class="col-xs-12" id="divAreaExtra">
 
         </div>
 
-        <div id="mapa_div" style="width:100%; height:400px">
+        <div class="col-xs-12" id="divBusca">
+            <button id="busca">Buscar</button>
+        </div>
+
+        <div id="mapa_div" style="width:100%; height:380px">
 
         </div>
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="js/erasmus.js"></script>
 </body>
 

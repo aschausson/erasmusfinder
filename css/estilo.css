@@ -8,7 +8,11 @@ html{
 
 html { height: 100% }
 body { height: 100%; margin: 0; padding: 0 }
-#mapa_div { height: 100% }
+#mapa_div { 
+	height: 100% ;
+	border: 2px solid grey;
+
+}
 
 body{
     font-size: 90%;
@@ -86,7 +90,12 @@ body{
       padding-top: 5px;
   }
 
+  #divMovilidad{
+    padding-bottom: 5px;
+  }
+
   hr{
+      min-width: 100px;
       margin-top: 5px;
       margin-bottom: 5px;
       border-top: 1px solid #AEB6BF;
@@ -95,3 +104,46 @@ body{
 .tituloSecundario{
    width: 170px;
 }
+
+.divCiclo{
+  margin: 0;
+  padding: 0;
+}
+
+.labelCiclo{
+  font-size: 75%;
+}
+
+
+
+.selectPais, button {
+  display: block;
+  margin: 0 auto;
+ }
+
+ .glyphicon{
+  width: 30px;
+  height: 30px;
+  padding: 0px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  z-index: 10;
+}
+
+
+#divTitulo{
+  display: block;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#tituloTexto{
+  display: inline-block;
+  border-bottom: 2px solid black;
+}
+
